@@ -1,0 +1,80 @@
+
+.principal{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    font-family: Verdana;
+    color:white;
+}
+.opcoes{
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+
+/*opcoes*/
+/*truco*/
+.truco img{
+    width: 60%;
+    height: 80%;
+    justify-content: center;
+    margin: auto;
+    display: block;
+}.truco h2{
+    text-align: center;
+    color: white;
+
+}.truco{
+    border: dotted;
+    font-family: Verdana;
+}
+
+/*bicho*/
+.bicho img{
+    width: 60%;
+    height: 75%;
+    justify-content: center;
+    margin: auto;
+    display: block;
+}.bicho h2{
+    text-align: center;
+    color: white;
+
+}.bicho{
+    border: dotted;
+    font-family: Verdana;
+}
+
+/*roleta*/
+.crash img{
+    width: 60%;
+    height: 75%;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    transform: rotate(10deg);
+}.crash h2{
+    text-align: center;
+    color: white;
+
+}.crash{
+    border: dotted;
+    font-family: Verdana;
+}
+
+/*blackjack*/
+.blackjack img{
+    width: 60%;
+    height: 75%;
+    justify-content: center;
+    margin: auto;
+    display: block;
+}.blackjack h2{
+    text-align: center;
+    color: white;
+
+}.blackjack{
+    border: dotted;
+    font-family: Verdana;
+}
